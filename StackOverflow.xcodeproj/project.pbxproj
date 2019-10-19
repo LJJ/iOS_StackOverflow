@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E646FBC235AD4D700C164B8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E646FBB235AD4D700C164B8 /* Utilities.swift */; };
 		0EA9F4742355572000DCADAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9F4732355572000DCADAB /* AppDelegate.swift */; };
 		0EA9F4762355572000DCADAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9F4752355572000DCADAB /* SceneDelegate.swift */; };
 		0EA9F4782355572000DCADAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9F4772355572000DCADAB /* ContentView.swift */; };
 		0EA9F47A2355572200DCADAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA9F4792355572200DCADAB /* Assets.xcassets */; };
 		0EA9F47D2355572200DCADAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA9F47C2355572200DCADAB /* Preview Assets.xcassets */; };
 		0EA9F4802355572200DCADAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA9F47E2355572200DCADAB /* LaunchScreen.storyboard */; };
+		0EA9F491235563FF00DCADAB /* AnswersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9F488235563FF00DCADAB /* AnswersModel.swift */; };
+		0EA9F492235563FF00DCADAB /* SearchQuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9F489235563FF00DCADAB /* SearchQuestionModel.swift */; };
+		0EA9F493235563FF00DCADAB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9F48B235563FF00DCADAB /* NetworkManager.swift */; };
+		0EA9F494235563FF00DCADAB /* URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9F48C235563FF00DCADAB /* URLRequestConvertible.swift */; };
+		0EA9F495235563FF00DCADAB /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9F48D235563FF00DCADAB /* NetworkAPI.swift */; };
+		0EA9F496235563FF00DCADAB /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9F48F235563FF00DCADAB /* QuestionTableViewCell.swift */; };
+		0EA9F497235563FF00DCADAB /* AnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9F490235563FF00DCADAB /* AnswerTableViewCell.swift */; };
+		0EA9F499235564B600DCADAB /* QuestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9F498235564B600DCADAB /* QuestionsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E646FBB235AD4D700C164B8 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		0EA9F4702355572000DCADAB /* StackOverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackOverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA9F4732355572000DCADAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EA9F4752355572000DCADAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,14 @@
 		0EA9F47C2355572200DCADAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EA9F47F2355572200DCADAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EA9F4812355572200DCADAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EA9F488235563FF00DCADAB /* AnswersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswersModel.swift; sourceTree = "<group>"; };
+		0EA9F489235563FF00DCADAB /* SearchQuestionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchQuestionModel.swift; sourceTree = "<group>"; };
+		0EA9F48B235563FF00DCADAB /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0EA9F48C235563FF00DCADAB /* URLRequestConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestConvertible.swift; sourceTree = "<group>"; };
+		0EA9F48D235563FF00DCADAB /* NetworkAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
+		0EA9F48F235563FF00DCADAB /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
+		0EA9F490235563FF00DCADAB /* AnswerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerTableViewCell.swift; sourceTree = "<group>"; };
+		0EA9F498235564B600DCADAB /* QuestionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E646FBA235AD4C600C164B8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0E646FBB235AD4D700C164B8 /* Utilities.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		0EA9F4672355572000DCADAB = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +85,11 @@
 				0EA9F4732355572000DCADAB /* AppDelegate.swift */,
 				0EA9F4752355572000DCADAB /* SceneDelegate.swift */,
 				0EA9F4772355572000DCADAB /* ContentView.swift */,
+				0EA9F498235564B600DCADAB /* QuestionsViewModel.swift */,
+				0E646FBA235AD4C600C164B8 /* Utils */,
+				0EA9F487235563FF00DCADAB /* Models */,
+				0EA9F48A235563FF00DCADAB /* Network */,
+				0EA9F48E235563FF00DCADAB /* View */,
 				0EA9F4792355572200DCADAB /* Assets.xcassets */,
 				0EA9F47E2355572200DCADAB /* LaunchScreen.storyboard */,
 				0EA9F4812355572200DCADAB /* Info.plist */,
@@ -73,6 +104,34 @@
 				0EA9F47C2355572200DCADAB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0EA9F487235563FF00DCADAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0EA9F488235563FF00DCADAB /* AnswersModel.swift */,
+				0EA9F489235563FF00DCADAB /* SearchQuestionModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0EA9F48A235563FF00DCADAB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0EA9F48B235563FF00DCADAB /* NetworkManager.swift */,
+				0EA9F48C235563FF00DCADAB /* URLRequestConvertible.swift */,
+				0EA9F48D235563FF00DCADAB /* NetworkAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0EA9F48E235563FF00DCADAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0EA9F48F235563FF00DCADAB /* QuestionTableViewCell.swift */,
+				0EA9F490235563FF00DCADAB /* AnswerTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +205,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EA9F494235563FF00DCADAB /* URLRequestConvertible.swift in Sources */,
+				0EA9F493235563FF00DCADAB /* NetworkManager.swift in Sources */,
 				0EA9F4742355572000DCADAB /* AppDelegate.swift in Sources */,
+				0EA9F497235563FF00DCADAB /* AnswerTableViewCell.swift in Sources */,
+				0EA9F492235563FF00DCADAB /* SearchQuestionModel.swift in Sources */,
+				0EA9F491235563FF00DCADAB /* AnswersModel.swift in Sources */,
+				0E646FBC235AD4D700C164B8 /* Utilities.swift in Sources */,
 				0EA9F4762355572000DCADAB /* SceneDelegate.swift in Sources */,
+				0EA9F496235563FF00DCADAB /* QuestionTableViewCell.swift in Sources */,
 				0EA9F4782355572000DCADAB /* ContentView.swift in Sources */,
+				0EA9F495235563FF00DCADAB /* NetworkAPI.swift in Sources */,
+				0EA9F499235564B600DCADAB /* QuestionsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

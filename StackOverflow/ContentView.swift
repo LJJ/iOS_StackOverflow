@@ -9,13 +9,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel = QuestionsViewModel("swift")
+    
     var body: some View {
-        Text("Hello World")
+        VStack{
+            TextField("Search", text: $viewModel.question)
+            List(viewModel.questionsList) { q in
+                Text(q.title)
+            }
+        }
     }
 }
 
+
+#if DEBUG
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+#endif
